@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  <!-- Google-fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- fontawesome-link -->
+  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+  <!-- bootstrap-links -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Zoom car</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#offers">Offers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">BookingInfo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Signup</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+
+          <h1 class="big-heading">DRIVE IN A SANITISED ZOOMCAR</h1>
+          <label for="city-select">Choose a city:</label>
+
+          <select name="city" id="city-select">
+            <option value="">--Please choose an option--</option>
+            <option value="indore">Indore</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="chennai">Chennai</option>
+            <option value="vadodara">Vadodara</option>
+            <option value="bhubaneswar">Bhubaneswar</option>
+            <option value="trichy">Trichy</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Kochi">Kochi</option>
+            <option value="Guwahati">Guwahati</option>
+            <option value="Calicut">Calicut</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Raipur">Raipur</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Coimbatore">Coimbatore</option>
+            <option value="Delhi NCR">Delhi NCR</option>
+            <option value="Vizag">Vizag</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Lucknow">Lucknow</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Vijayawada">Vijayawada</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+          </select>
+          <button type="button" class="btn btn-dark btn-lg download-buttons"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-buttons"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/zoomcar.jpeg" alt="zoomcar logo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="featurebox col-lg-4">
+        <i class=" icon fas fa-smile-wink fa-4x"></i>
+        <h3>48,00,000+</h3>
+        <p>Happy users.</p>
+      </div>
+
+      <div class="featurebox col-lg-4">
+        <i class=" icon fas fa-car fa-4x"></i>
+        <h3>3,000+</h3>
+        <p>Rides Daily</p>
+        <h3>6,500+</h3>
+        <p>Number of Zoomcars</p>
+      </div>
+
+      <div class="featurebox col-lg-4">
+        <i class=" icon fas fa-tachometer-alt fa-4x"></i>
+        <h3>36,00,00,000+</h3>
+        <p>Km Travelled</p>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>You certainely do have a very regular coustmer here...Must say,Gerg went the extra mile...You have a great journey together!</h2>
+
+          <em>-Deepak Sharma , Banglore.</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">It was great pleasure use zoom service,As all process being online it was really hassle free experience.good serviceplease keep it going.</h2>
+
+          <em>-Mustak R, Mumbai.</em>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/TechCrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="offers">
+
+    <h2>OFFERS...</h2>
+    <p>Simple and affordable price plans.</p>
+    <div class="row">
+      <div class=" pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>1st BOOKING</h3>
+          </div>
+          <div class="card-body">
+            <h2>20% OFF</h2>
+            <p>on your First Zoomcar Booking.</p>
+            <p>use coupen code <b>ZOOMNEW</b></p>
+            <img class="offer1" src="images/offer1.png" alt="offer">
+
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class=" pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastercard.</h3>
+          </div>
+          <div class="card-body">
+            <h2>Enjoy 20% Off</h2>
+            <p>on all Mastercard Credit and Debit cards!</p>
+
+
+
+            <img class="offer2" src="images/mastercard.jpg" alt="mastercard">
+
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+
+          </div>
+        </div>
+      </div>
+      <div class=" pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Extra Benifits</h3>
+          </div>
+          <div class="card-body">
+            <h2>GET VOUCHERS </h2>
+            <p>with every ride</p>
+            <p>use code <b>ALZOOMJOY</b></p>
+            <img class="offer3" src="images/vouchers.jpg" alt="vouchers">
+
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-heading">ZOOM ON THE GO!</h3>
+    <P class="abc">Make a booking ,unlock your car, end your reservation all from our app</P>
+
+
+    <button class="download-buttons btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i>Download</button>
+    <button class="download-buttons btn btn-lg btn-light" type="button"><i class="fab fa-google-play"></i>Download</button>
+
+  </section>
+
+
+
+
+
+  <!-- Footer -->
+
+
+  <footer id="footer">
+    <h3 class="touch"> Let's Keep in Touch </h3>
+    <p>7th Floor,Tower-B,Diamond District, HAL Airport Road ,Kodihalli,Banglore-560008</p>
+
+
+    <i class=" social-icon fab fa-facebook"></i>
+    <i class=" social-icon fab fa-twitter"></i>
+    <i class=" social-icon fab fa-instagram"></i>
+    <i class=" social-icon fas fa-envelope"></i>
+    <p>© Copyright 2018 Zoomcar India private Ltd.All rights reserved.</p>
+
+  </footer>
+  <!-- aboutus -->
+  <section id="aboutus">
+    <h3>LOOKING FOR SELF DRIVE CARS IN BANGALORE?</h3>
+    <p> Bangalore being a burgeoning cosmopolitan city is witnessing a shift in culture. With youngsters now being able to establish an equal focus on work and leisure frequent road trips have now become a norm. In addition to this, the added
+      pleasure of a self-driving has given rise in the demand for, self-drive car rentals which has emerged as the answer to many of their prayers. </p>
+    <h3>HOW MUCH DOES IT COST TO RENT A CAR FOR A DAY?</h3>
+    <p>If want to rent one out a self-drive car, choose Zoomcar, where you can pick out your self-drive car based on your travelling needs. While small self-drive cars allow you to easily manoeuvre through city traffic, sedans and SUV’s offer more
+      comfort. Affordable prices starting at 60/hr helps you rent a car easily. Whether you want to go on a road trip from Bangalore to Coorg or just need a car to travel within the city the self-drive Zoomcar are your best solution. All Self-drive
+      Zoomcar comes with a limited liability, enabling you to enjoy the comfort of a four-wheeler without having to invest in one, with the added benefit of not having to actually drive it. The Self-drive Zoomcar have even made travel to and from the
+      airport easy. Avoid exorbitantly priced Bangalore airport cabs by choosing to travel in a Zoomcar instead. The Bangalore airport even has a Zoomcar parking lot where you can get a self-drive car rental as soon as you get off your flight, thus
+      eliminating the time taken to look for a cab or hire one.</P>
+    <h3>WHAT STATES ALLOW SELF DRIVING CARS?</h3>
+
+    <p>Drive seamlessly:</p>
+    <p>Our Self-Drive cars come with all India permits, Road-Side Assistance (RSA), vehicle insurance and provision of multiple parking sites across the city.</p>
+
+    <p>Book Through the App:</p>
+    <p>No matter how long you need our Self Drive cars for you can conveniently hire a Self-Drive car online in Bangalore through the Zoomcar app.</p>
+
+    <p>Array of services:</p>
+    <p>Enjoy tech-enabled booking, tracking and hassle-free payment options too. Make every special occasion memorable by opting to ride in a luxury self-drive car yourself. You could opt for it just for the sheer pleasure and experience too!</p>
+
+    <h3>STEPS FOR SELF DRIVE CAR BOOKING IN BANGALORE</h3>
+    <p>Drive across the city hassle free with a self-drive car from Zoomcar in the following steps:</p>
+    <ul class="steps">
+      <li>Download the Zoomcar App from the Play Store or the App Store.</li>
+      <li>Search for a car from the wide range available and book a self-drive car of your choice</li>
+      <li>Upload License and pay a small security deposit</li>
+      <li>Car details will be sent on SMS 20mins before pickup. Unlock it via the Zoomcar App</li>
+      <li>Fill the start checklist in the Zoomcar App. Grab the keys from the glove box and zoom away
+        After the trip, return the car and fill the end checklist from the App to end your trip. We refund your deposit if applicable</li>
+    </ul>
+    <p>Book, Drive, Repeat. Zoom On.</p>
+
+
+
+
+  </section>
+
+
+</body>
+
+</html>
